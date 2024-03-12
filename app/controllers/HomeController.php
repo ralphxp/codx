@@ -1,7 +1,7 @@
 <?php
 namespace Codx\Comic\Controllers;
 
-use Comic\App\Template\Engine as View;
+use Codx\Ralph\Engine as View;
 
 class HomeController{
 
