@@ -1,7 +1,7 @@
 <?php
 namespace Codx\Comic\Controllers;
 
-use Bird\Ralph\Engine as View;
+use Comic\App\Template\Engine as View;
 
 class HomeController{
 
