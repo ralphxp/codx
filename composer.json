@@ -1,0 +1,14 @@
+{
+    "name": "codx/codx",
+    "description": "Comic Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ralphxp",
+            "email": "raphapanchi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
