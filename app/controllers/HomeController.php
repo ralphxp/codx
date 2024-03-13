@@ -1,13 +1,16 @@
 <?php
-namespace Codx\Comic\Controllers;
+namespace Codx\Comic\Controller;
 
 use Codx\Ralph\Engine as View;
+use \Codx\Comic\Model\User;
 
-class HomeController{
+
+class HomeController extends Controller{
 
     public function index()
     {
-        return View::view('welcome');
+        $user = User::where('user_id', 1)->get();
+        return View::view('welcome', compact('user'));
     }
 
     public function auth()
