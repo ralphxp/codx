@@ -32,6 +32,14 @@
             color: #666;
             text-align: center;
         }
+        .footer{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            width: 95%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -39,5 +47,8 @@
         <h1>Welcome to Comic </h1>
         <p>This is a default welcome page for your micro PHP framework.</p>
     </div>
+    <footer class="footer">
+        <p>Comic version 1.0.0.2b</p>
+    </footer>
 </body>
 </html>
