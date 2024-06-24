@@ -20,7 +20,7 @@
         "illuminate/events": "^11.7",
         "symfony/password-hasher": "^7.0",
         "symfony/form": "^7.0",
-        "codx/comic": "^1.0"    
+        "codx/comic": "^1.0.5"    
     },
     "autoload": {
         "psr-4": {
